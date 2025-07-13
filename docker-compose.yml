@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  gitlab:
+    build: gitlab/.
+    container_name: cve-2021-22205
+    environment:
+      GITLAB_ROOT_PASSWORD: ${GITLAB_ROOT_PASSWORD}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/-/health"]
+    hostname: ${GITLAB_HOSTNAME}
+    image: cve-2021-22205
+    networks:
+      - cve-2021-22205
+    ports:
+      - "80:80"
+    restart: always
+    volumes:
+      - ./config:/etc/gitlab
+      - ./data:/var/opt/gitlab
+      - ./logs:/var/log/gitlab
+
+networks:
+  cve-2021-22205:
+    name: cve-2021-22205
