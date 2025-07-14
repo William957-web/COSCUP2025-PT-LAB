@@ -28,7 +28,7 @@ Step 4. 先行 Compose 課程 Docker Image
 本步驟需要執行一段時間，請耐心等待
 ```bash
 cd COSCUP2025-PT-LAB
-docker-compose up
+sudo docker-compose up
 ```
 
 開啟 FireFox 瀏覽器，瀏覽本地 localhost:80，如果可以正常看到 gitlab 就代表建置完成！  
