@@ -7,7 +7,7 @@ Time for some metasploitable quiz XD
 
 ## 課前準備
 Step 1. 安裝 Kali Linux，如自身有習慣的 VM 軟體則以該軟體安裝，否則請以 VirtualBox 安裝  
-教學連結：[https://hackmd.io/@aifred0729/Install_Kali#VirtualBox](https://hackmd.io/@aifred0729/Install_Kali#VirtualBox)
+教學連結：[https://hackmd.io/@aifred0729/Install_Kali#VirtualBox](https://hackmd.io/@aifred0729/Install_Kali#VirtualBox)  
 Step 2. 安裝 Docker 與 docker-compose  
 <img width="848" height="293" alt="image" src="https://github.com/user-attachments/assets/8f0216b9-921c-4b0b-aa66-2fbaaa6ef155" />
 
